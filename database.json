@@ -49,7 +49,7 @@
       "description": "3rd Place Winner, AI Hackathon - “MITR PHOL Young Entrepreneur Strengthsfinding (YES) Talent Camp 2024”",
       "image": "img/mitrphol.png",
       "tags": ["LLM", "NLP", "Legal Tech"],
-      "github": "https://github.com/witchapon14/Jass_coj_project"
+      "github": "#"
       ,"pitchdeck":"https://www.canva.com/design/DAGSS1saQcY/pvAlvwKF_wV3AQx4_B9QhA/edit?utm_content=DAGSS1saQcY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     },
     {
@@ -73,7 +73,7 @@
       "description": "This project showcases two AI-driven solutions developed for the Government Pharmaceutical Organization (GPO) of Thailand using the KNIME Analytics Platform. The goal is to enhance customer insights and enable reverse formulation prediction using pharmaceutical sales and production data.",
       "image": "img/gpo.png",
       "tags": ["Machine Learning", "Customer Segmentation", "Tree based model"],
-      "github": "https://github.com/witchapon14/AI_security_app/tree/main"
+      "github": "https://github.com/witchapon14/AI_GPO"
     ,"pitchdeck":"https://www.canva.com/design/DAGkIpFl4fs/A5A1YjEg-EdWorQpbgobZQ/edit?utm_content=DAGkIpFl4fs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     },
     {
@@ -81,7 +81,7 @@
       "description": "I am head of AI Security lab in KMITL. In this project, My responsible is the designer and architect of the Next-Generation AI Security Operations Center (SOC) at KMITL, with the goal of enhancing organizational cybersecurity to be more modern and effective. This system was presented to Intelligist to demonstrate the potential of applying Big Data, AI/ML, and Generative AI in the field of cybersecurity.",
       "image": "img/soc.png",
       "tags": ["Machine Learning", "Customer Segmentation", "Tree based model"],
-      "github": "https://github.com/witchapon14/AI_security_app/tree/main"
+      "github": "#"
     ,"pitchdeck":"https://www.canva.com/design/DAGhZdPwaMo/DoXSX2C8v9cTQFTuXPuMlw/edit?utm_content=DAGhZdPwaMo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     }
   ],
