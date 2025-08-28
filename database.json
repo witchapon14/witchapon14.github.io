@@ -1,0 +1,139 @@
+{
+
+  "personalInfo": {
+    "name": "Witchapon Kasettrakarn",
+    "title": "AI Researcher & Model Architect.",
+    "greeting": "Hello, I'm",
+    "bio_intro": "Passionate about machine learning and AI, with expertise in data science, anomaly detection, and ML systems. I focus on building scalable models for real-world applications in time series analysis, computer vision, and LLM AI security.",
+    "profileImage": "img/profile.JPG",
+    "email": "witchapon14@gmail.com",
+    "socials": {
+      "github": "https://github.com/witchapon14",
+      "linkedin": "https://www.linkedin.com/in/witchapon-kasettakarn-132265287",
+      "twitter": "#"
+    }
+  },
+  "about": {
+    "paragraphs": [
+      "I am passionate about machine learning and AI, with a strong foundation in data science, machine learning, and anomaly detection. Dedicated to developing efficient and effective ML systems, I take an analytical approach to problem-solving and enjoy working on projects that leverage data to deliver impactful insights.",
+      "My goal is to advance the performance, scalability, and adaptability of ML models for real-world applications, from <strong class=\"text-gray-200\">time series analysis</strong> and <strong class=\"text-gray-200\">computer vision</strong>  and <strong class=\"text-gray-200\">LLM AI Security</strong> "
+    ]
+  },
+  "experience": [
+    {
+      "type": "internship",
+      "title": "Computer Technical Officer (AI Develop & Data Analysis)",
+      "company": "Court of justice thailand",
+      "year": "2025 March-May",
+      "details": [
+        "During my internship, I was responsible for developing a Large Language Model (LLM) system as part of the AI-Powered Trial Preparation and Consultation System Development Project, as well as designing and implementing a data monitoring system for internal use within the Court of Justice of Thailand using Microsoft Power BI."
+,"Participated in product presentations and technology briefings delivered by leading technology companies, including Huawei, Oracle, Google, and Adobe, during the course of the internship."
+      ]
+    },
+    {
+      "type": "internship",
+      "title": "Data scientist",
+      "company": "Botnoi",
+      "year": "2024 March-May",
+      "details": [
+       "Developed data analysis pipelines and automated workflows using Pandas AI to streamline data preprocessing and feature extraction.",
+"Conducted exploratory data analysis and visualized insights for various datasets in real-world projects.",
+"Researched and authored articles on Large Language Models (LLMs), focusing on applications in text processing and AI-driven solutions."
+      ]
+    }
+    
+  ],
+  "projects": [
+    {
+      "title": "Mitrphol Hackathorn",
+      "description": "3rd Place Winner, AI Hackathon - “MITR PHOL Young Entrepreneur Strengthsfinding (YES) Talent Camp 2024”",
+      "image": "img/mitrphol.png",
+      "tags": ["LLM", "NLP", "Legal Tech"],
+      "github": "https://github.com/witchapon14/Jass_coj_project"
+      ,"pitchdeck":"https://www.canva.com/design/DAGSS1saQcY/pvAlvwKF_wV3AQx4_B9QhA/edit?utm_content=DAGSS1saQcY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    {
+      "title": "LLM for Court of justice",
+      "description": "Developed and applied a Large Language Model to summarize and analyze case files, enhancing the efficiency of judicial proceedings.",
+      "image": "img/coj.jpg",
+      "tags": ["LLM", "NLP", "Legal Tech"],
+      "github": "https://github.com/witchapon14/Jass_coj_project"
+      ,"pitchdeck":""
+    },
+    {
+      "title": "AI-Powered Log Analysis for Security",
+      "description": "Utilized Machine Learning techniques for real-time analysis of log files to detect attack patterns and cybersecurity anomalies.",
+      "image": "img/coj.jpg",
+      "tags": ["Anomaly Detection", "Cybersecurity", "Machine Learning"],
+      "github": "https://github.com/witchapon14/AI_security_app/tree/main"
+    ,"pitchdeck":"https://www.canva.com/design/DAGSPdvrk5E/TJKXdXVf2RG-nbQTIDspjg/edit?utm_content=DAGSPdvrk5E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    {
+      "title": "Government Pharmaceutical Organization (GPO) Project",
+      "description": "This project showcases two AI-driven solutions developed for the Government Pharmaceutical Organization (GPO) of Thailand using the KNIME Analytics Platform. The goal is to enhance customer insights and enable reverse formulation prediction using pharmaceutical sales and production data.",
+      "image": "img/GPO.png",
+      "tags": ["Machine Learning", "Customer Segmentation", "Tree based model"],
+      "github": "https://github.com/witchapon14/AI_security_app/tree/main"
+    ,"pitchdeck":"https://www.canva.com/design/DAGkIpFl4fs/A5A1YjEg-EdWorQpbgobZQ/edit?utm_content=DAGkIpFl4fs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    {
+      "title": "Next-Gen AI SOC",
+      "description": "I am head of AI Security lab in KMITL. In this project, My responsible is the designer and architect of the Next-Generation AI Security Operations Center (SOC) at KMITL, with the goal of enhancing organizational cybersecurity to be more modern and effective. This system was presented to Intelligist to demonstrate the potential of applying Big Data, AI/ML, and Generative AI in the field of cybersecurity.",
+      "image": "img/soc.png",
+      "tags": ["Machine Learning", "Customer Segmentation", "Tree based model"],
+      "github": "https://github.com/witchapon14/AI_security_app/tree/main"
+    ,"pitchdeck":"https://www.canva.com/design/DAGhZdPwaMo/DoXSX2C8v9cTQFTuXPuMlw/edit?utm_content=DAGhZdPwaMo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Study on Damage to Flexible Pavement Road in Thailand",
+      "description": "Developed a Deep Learning system (U-Net) for classifying crack types on flexible pavement roads to support effective maintenance planning.",
+      "image": "img/crack.png",
+      "tags": ["Computer Vision", "Deep Learning", "U-Net"],
+      "link": "https://ieeexplore.ieee.org/document/10987823"
+    }
+  ],
+  "skills":     [
+      {
+        "icon": "🐍",
+        "name": "Python",
+        "items": "NumPy, Pandas, SciPy"
+      },
+      {
+        "icon": "🤖",
+        "name": "AI/ML/LLM Frameworks",
+        "items": "PyTorch, TensorFlow, Scikit-learn, FAISS, langchain"
+      },
+      {
+        "icon": "📊",
+        "name": "Data Visualization",
+        "items": "Looker, Powerbi,Matplotlib, Seaborn, Plotly"
+      },
+      {
+        "icon": "🗄️",
+        "name": "Databases",
+        "items": "SQL, PostgreSQL"
+      },
+      {
+        "icon": "☁️",
+        "name": "Cloud & MLOps",
+        "items": "GCP, Docker, Git"
+      },
+      {
+        "icon": "🔬",
+        "name": "AI Specialization",
+        "items": "NLP, Time-Series, Computer Vision, AI Security"
+      },
+      {
+        "icon": "👨‍💻",
+        "name": "Data Engineering Tools",
+        "items": "pyspark, duckdb, Apache airflow"
+      },
+      {
+        "icon": "🌐",
+        "name": "Web Development",
+        "items": "HTML, CSS, JavaScript, FastAPI"
+      }
+    ]
+}
