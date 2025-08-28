@@ -71,7 +71,7 @@
     {
       "title": "Government Pharmaceutical Organization (GPO) Project",
       "description": "This project showcases two AI-driven solutions developed for the Government Pharmaceutical Organization (GPO) of Thailand using the KNIME Analytics Platform. The goal is to enhance customer insights and enable reverse formulation prediction using pharmaceutical sales and production data.",
-      "image": "img/GPO.png",
+      "image": "img/gpo.png",
       "tags": ["Machine Learning", "Customer Segmentation", "Tree based model"],
       "github": "https://github.com/witchapon14/AI_security_app/tree/main"
     ,"pitchdeck":"https://www.canva.com/design/DAGkIpFl4fs/A5A1YjEg-EdWorQpbgobZQ/edit?utm_content=DAGkIpFl4fs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
