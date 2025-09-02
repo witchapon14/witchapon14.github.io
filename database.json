@@ -1,7 +1,7 @@
 {
 
   "personalInfo": {
-    "name": "Witchapon Kasettrakarn",
+    "name": "Witchapon Kasettakarn",
     "title": "AI Researcher & Model Architect.",
     "greeting": "Hello, I'm",
     "bio_intro": "Passionate about machine learning and AI, with expertise in data science, anomaly detection, and ML systems. I focus on building scalable models for real-world applications in time series analysis, computer vision, and LLM AI security.",
@@ -10,7 +10,7 @@
     "socials": {
       "github": "https://github.com/witchapon14",
       "linkedin": "https://www.linkedin.com/in/witchapon-kasettakarn-132265287",
-      "twitter": "#"
+      "twitter": "https://medium.com/@witchaponkasettarkarn"
     }
   },
   "about": {
@@ -21,119 +21,155 @@
   },
   "experience": [
     {
-      "type": "internship",
+      "icon": "fas fa-briefcase",
+      "logo": "img/coj.jpg",
       "title": "Computer Technical Officer (AI Develop & Data Analysis)",
-      "company": "Court of justice thailand",
-      "year": "2025 March-May",
+      "company": "Court of Justice Thailand",
+      "duration": "2025 March-May",
+      "location": "Bangkok, Thailand",
       "details": [
-        "During my internship, I was responsible for developing a Large Language Model (LLM) system as part of the AI-Powered Trial Preparation and Consultation System Development Project, as well as designing and implementing a data monitoring system for internal use within the Court of Justice of Thailand using Microsoft Power BI."
-,"Participated in product presentations and technology briefings delivered by leading technology companies, including Huawei, Oracle, Google, and Adobe, during the course of the internship."
-      ]
+        "Developed a Large Language Model (LLM) system as part of the AI-Powered Trial Preparation and Consultation System Development Project.",
+        "Designed and implemented a data monitoring system for internal use within the Court of Justice of Thailand using Microsoft Power BI.",
+        "Participated in product presentations and technology briefings delivered by leading technology companies, including Huawei, Oracle, Google, and Adobe."
+      ],
+      "tech_stack": ["Power BI", "LangChain", "Streamlit", "Docker", "Python"]
     },
     {
-      "type": "internship",
-      "title": "Data scientist",
+      "icon": "fas fa-graduation-cap",
+      "logo": "img/botnoi.png",
+      "title": "Data Scientist (Internship)",
       "company": "Botnoi",
-      "year": "2024 March-May",
+      "duration": "2024 March-May",
+      "location": "Bangkok, Thailand",
       "details": [
-       "Developed data analysis pipelines and automated workflows using Pandas AI to streamline data preprocessing and feature extraction.",
-"Conducted exploratory data analysis and visualized insights for various datasets in real-world projects.",
-"Researched and authored articles on Large Language Models (LLMs), focusing on applications in text processing and AI-driven solutions."
-      ]
+        "Developed data analysis pipelines and automated workflows using Pandas AI to streamline data preprocessing and feature extraction.",
+        "Conducted exploratory data analysis and visualized insights for various datasets in real-world projects.",
+        "Researched and authored articles on Large Language Models (LLMs), focusing on applications in text processing and AI-driven solutions."
+      ],
+      "tech_stack": ["Pandas AI", "Python", "Data Visualization", "LLM Research"]
     }
-    
   ],
   "projects": [
     {
+      "category": "llm",
       "title": "Mitrphol Hackathorn",
       "description": "3rd Place Winner, AI Hackathon - “MITR PHOL Young Entrepreneur Strengthsfinding (YES) Talent Camp 2024”",
       "image": "img/mitrphol.png",
-      "tags": ["LLM", "NLP", "Legal Tech"],
-      "github": "#"
-      ,"pitchdeck":"https://www.canva.com/design/DAGSS1saQcY/pvAlvwKF_wV3AQx4_B9QhA/edit?utm_content=DAGSS1saQcY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      "tech_stack": ["LLM", "NLP", "Legal Tech"],
+      "links": {
+        
+        "pitchdeck": "https://www.canva.com/design/DAGSS1saQcY/pvAlvwKF_wV3AQx4_B9QhA/edit?utm_content=DAGSS1saQcY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      }
     },
     {
+      "category": "llm",
       "title": "LLM for Court of justice",
       "description": "Developed and applied a Large Language Model to summarize and analyze case files, enhancing the efficiency of judicial proceedings.",
       "image": "img/coj.jpg",
-      "tags": ["LLM", "NLP", "Legal Tech"],
-      "github": "https://github.com/witchapon14/Jass_coj_project"
-      ,"pitchdeck":""
+      "tech_stack": ["LLM", "NLP", "Legal Tech"],
+      "links": {
+        "github": "https://github.com/witchapon14/Jass_coj_project",
+        "pitchdeck": ""
+      }
     },
     {
+      "category": "cybersecurity",
       "title": "AI-Powered Log Analysis for Security",
       "description": "Utilized Machine Learning techniques for real-time analysis of log files to detect attack patterns and cybersecurity anomalies.",
       "image": "img/coj.jpg",
-      "tags": ["Anomaly Detection", "Cybersecurity", "Machine Learning"],
-      "github": "https://github.com/witchapon14/AI_security_app/tree/main"
-    ,"pitchdeck":"https://www.canva.com/design/DAGSPdvrk5E/TJKXdXVf2RG-nbQTIDspjg/edit?utm_content=DAGSPdvrk5E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      "tech_stack": ["Anomaly Detection", "Cybersecurity", "Machine Learning"],
+      "links": {
+        "github": "https://github.com/witchapon14/AI_security_app/tree/main",
+        "pitchdeck": "https://www.canva.com/design/DAGSPdvrk5E/TJKXdXVf2RG-nbQTIDspjg/edit?utm_content=DAGSPdvrk5E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      }
     },
     {
+      "category": "dsml",
       "title": "Government Pharmaceutical Organization (GPO) Project",
-      "description": "This project showcases two AI-driven solutions developed for the Government Pharmaceutical Organization (GPO) of Thailand using the KNIME Analytics Platform. The goal is to enhance customer insights and enable reverse formulation prediction using pharmaceutical sales and production data.",
-      "image": "img/gpo.jpg",
-      "tags": ["Machine Learning", "Customer Segmentation", "Tree based model"],
-      "github": "https://github.com/witchapon14/AI_GPO"
-    ,"pitchdeck":"https://www.canva.com/design/DAGkIpFl4fs/A5A1YjEg-EdWorQpbgobZQ/edit?utm_content=DAGkIpFl4fs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      "description": "This project showcases two AI-driven solutions developed for the Government Pharmaceutical Organization (GPO) of Thailand using the KNIME Analytics Platform.",
+      "image": "img/GPO.png",
+      "tech_stack": ["Machine Learning", "Customer Segmentation", "Tree based model"],
+      "links": {
+        "github": "https://github.com/witchapon14/AI_security_app/tree/main",
+        "pitchdeck": "https://www.canva.com/design/DAGkIpFl4fs/A5A1YjEg-EdWorQpbgobZQ/edit?utm_content=DAGkIpFl4fs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      }
     },
     {
+      "category": "dsml",
       "title": "Next-Gen AI SOC",
-      "description": "I am head of AI Security lab in KMITL. In this project, My responsible is the designer and architect of the Next-Generation AI Security Operations Center (SOC) at KMITL, with the goal of enhancing organizational cybersecurity to be more modern and effective. This system was presented to Intelligist to demonstrate the potential of applying Big Data, AI/ML, and Generative AI in the field of cybersecurity.",
+      "description": "The designer and architect of the Next-Generation AI Security Operations Center (SOC) at KMITL, with the goal of enhancing organizational cybersecurity to be more modern and effective.",
       "image": "img/soc.png",
-      "tags": ["Machine Learning", "Customer Segmentation", "Tree based model"],
-      "github": "#"
-    ,"pitchdeck":"https://www.canva.com/design/DAGhZdPwaMo/DoXSX2C8v9cTQFTuXPuMlw/edit?utm_content=DAGhZdPwaMo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      "tech_stack": ["Machine Learning", "Customer Segmentation", "Tree based model"],
+      "links": {
+        "github": "https://github.com/witchapon14/AI_security_app/tree/main",
+        "pitchdeck": "https://www.canva.com/design/DAGhZdPwaMo/DoXSX2C8v9cTQFTuXPuMlw/edit?utm_content=DAGhZdPwaMo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      }
     }
   ],
   "publications": [
     {
       "title": "Study on Damage to Flexible Pavement Road in Thailand",
-      "description": "Developed a Deep Learning system (U-Net) for classifying crack types on flexible pavement roads to support effective maintenance planning.",
-      "image": "img/crack.png",
+      "authors": "Witchapon Kasettakarn",
+      "venue": "IEEE Xplore",
+      "date": "May 2024",
       "tags": ["Computer Vision", "Deep Learning", "U-Net"],
-      "link": "https://ieeexplore.ieee.org/document/10987823"
+      "abstract": "Developed a Deep Learning system (U-Net) for classifying crack types on flexible pavement roads to support effective maintenance planning.",
+      "links": {
+        "view": "https://ieeexplore.ieee.org/document/10987823",
+        "pdf": "https://ieeexplore.ieee.org/document/10987823"
+      }
     }
   ],
-  "skills":     [
+  "skills": {
+    "groups": [
       {
-        "icon": "🐍",
-        "name": "Python",
-        "items": "NumPy, Pandas, SciPy"
+        "name": "Language & Core Tech",
+        "category_icon": "fas fa-code",
+        "skills": [
+          { "name": "Python", "icon": "devicon-python-plain", "level": "Professional" },
+          { "name": "PostgreSQL", "icon": "devicon-postgresql-plain", "level": "Professional" },
+          { "name": "HTML5", "icon": "devicon-html5-plain", "level": "Intermediate" },
+          { "name": "CSS3", "icon": "devicon-css3-plain", "level": "Intermediate" },
+          { "name": "JavaScript", "icon": "devicon-javascript-plain", "level": "Exploring" }
+        ]
       },
       {
-        "icon": "🤖",
-        "name": "AI/ML/LLM Frameworks",
-        "items": "PyTorch, TensorFlow, Scikit-learn, FAISS, langchain"
+        "name": "Frameworks",
+        "category_icon": "fas fa-layer-group",
+        "skills": [
+          { "name": "PyTorch", "icon": "devicon-pytorch-original", "level": "Professional" },
+          { "name": "Scikit-learn", "icon": "devicon-scikitlearn-plain", "level": "Professional" },
+          { "name": "TensorFlow", "icon": "devicon-tensorflow-original", "level": "Intermediate" },
+          { "name": "LangChain", "icon": "fas fa-robot", "level": "Intermediate" },
+          { "name": "FastAPI", "icon": "devicon-fastapi-plain", "level": "Exploring" }
+        ]
       },
       {
-        "icon": "📊",
-        "name": "Data Visualization",
-        "items": "Looker, Powerbi,Matplotlib, Seaborn, Plotly"
+        "name": "Data Science & Analytics",
+        "category_icon": "fas fa-chart-bar",
+        "skills": [
+          { "name": "Pandas", "icon": "devicon-pandas-original", "level": "Professional" },
+          { "name": "Numpy", "icon": "devicon-numpy-original", "level": "Professional" },
+          { "name": "Apache Spark", "icon": "devicon-apachespark-original", "level": "Intermediate" },
+          { "name": "Looker", "icon": "fas fa-chart-bar", "level": "Exploring" },
+          { "name": "Power BI", "icon": "fas fa-chart-pie", "level": "Exploring" }
+        ]
       },
       {
-        "icon": "🗄️",
-        "name": "Databases",
-        "items": "SQL, PostgreSQL"
-      },
-      {
-        "icon": "☁️",
-        "name": "Cloud & MLOps",
-        "items": "GCP, Docker, Git"
-      },
-      {
-        "icon": "🔬",
-        "name": "AI Specialization",
-        "items": "NLP, Time-Series, Computer Vision, AI Security"
-      },
-      {
-        "icon": "👨‍💻",
-        "name": "Data Engineering Tools",
-        "items": "pyspark, duckdb, Apache airflow"
-      },
-      {
-        "icon": "🌐",
-        "name": "Web Development",
-        "items": "HTML, CSS, JavaScript, FastAPI"
+        "name": "DevOps & Tools",
+        "category_icon": "fas fa-tools",
+        "skills": [
+            { "name": "Git", "icon": "devicon-git-plain", "level": "Intermediate" },
+            { "name": "Docker", "icon": "devicon-docker-plain", "level": "Intermediate" },
+            { "name": "Google Cloud", "icon": "devicon-googlecloud-plain", "level": "Familiar" }
+        ]
       }
-    ]
+    ],
+    "levels": {
+      "Professional": "#22c55e",
+      "Intermediate": "#3b82f6",
+      "Exploring": "#a855f7",
+      "Familiar": "#f97316"
+    }
+  }
 }
