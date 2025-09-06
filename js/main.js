@@ -14,7 +14,7 @@ function populatePage(data) {
     document.getElementById('name').textContent = data.personalInfo.name;
     document.getElementById('bio-intro').innerHTML = data.personalInfo.bio_intro;
     document.getElementById('profile-pic').src = data.personalInfo.profileImage;
-    document.getElementById('about-pic').src = data.personalInfo.profileImage;
+    document.getElementById('about-pic').src = data.about.profileImage;
 
     // Social Links
     const socialLinksContainer = document.getElementById('social-links');

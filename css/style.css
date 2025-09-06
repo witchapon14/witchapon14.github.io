@@ -189,38 +189,75 @@ body {
 
 .timeline-item {
     position: relative;
-    margin-bottom: 2rem;
-    padding-left: 60px;
+    margin-bottom: 3rem;
+    padding-left: 70px;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--main-color), transparent);
+    z-index: 0;
 }
 
 .timeline-icon {
     position: absolute;
     left: 0;
     top: 0;
-    width: 42px;
-    height: 42px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
-    background-color: var(--second-bg-color);
-    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    border: 3px solid var(--main-color);
     display: grid;
     place-items: center;
     color: var(--main-color);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
     z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.timeline-icon:hover {
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    transform: scale(1.1);
 }
 
 .timeline-content {
     background-color: var(--second-bg-color);
-    padding: 1.5rem;
-    border-radius: 10px;
-    border: 1px solid #222;
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    border: 1px solid #333;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: translateY(-3px);
+    border-color: var(--main-color);
 }
 
 .timeline-header {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.timeline-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.timeline-date {
+    font-size: 0.9rem;
+    color: var(--other-color);
 }
 
 .company-logo {
@@ -322,48 +359,98 @@ body {
 .project-card {
     flex: 0 0 340px;
     background: var(--second-bg-color);
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     border: 1px solid #222;
-    transition: transform 0.3s ease;
+    transition: all 0.35s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }
+
 .project-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px) scale(1.02);
+    border-color: var(--main-color);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
 }
+
 .project-image {
+    position: relative;
     height: 200px;
+    overflow: hidden;
 }
+
 .project-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.4s ease;
 }
+
+.project-card:hover .project-image img {
+    transform: scale(1.08);
+}
+
 .project-content {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
+
 .project-title {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
+    color: var(--main-color);
 }
+
 .project-description {
     color: var(--other-color);
-    font-size: 0.9rem;
-    line-height: 1.5;
+    font-size: 0.95rem;
+    line-height: 1.6;
     flex-grow: 1;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
+
 .project-tech-stack {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 1rem;
+}
+
+.project-tech-stack span {
+    background: rgba(0, 255, 153, 0.1);
+    color: var(--main-color);
+    padding: 0.3rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.project-tech-stack span:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+    transform: translateY(-2px);
+}
+
+.project-links {
+    margin-top: auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.project-links a {
+    font-weight: 600;
+    color: var(--other-color);
+    transition: color 0.3s ease;
+}
+
+.project-links a:hover {
+    color: var(--main-color);
 }
 .tech-tag {
     background-color: rgba(0, 255, 153, 0.1);
@@ -503,32 +590,51 @@ body {
 
 .skills-category {
     background: var(--second-bg-color);
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 2rem;
     border: 1px solid #222;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: all 0.3s ease;
 }
+
+.skills-category:hover {
+    transform: translateY(-5px);
+    border-color: var(--main-color);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}
+
 .category-header {
     display: flex;
     align-items: center;
     margin-bottom: 1.5rem;
 }
+
 .category-icon {
     font-size: 1.5rem;
     color: var(--main-color);
     margin-right: 1rem;
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     display: grid;
     place-items: center;
-    background: rgba(0, 255, 153, 0.1);
-    border-radius: 50%;
+    background: rgba(0, 255, 153, 0.15);
+    border-radius: 12px;
+    transition: all 0.3s ease;
 }
+
+.skills-category:hover .category-icon {
+    background: var(--main-color);
+    color: var(--bg-color);
+    transform: scale(1.1);
+}
+
 .category-header h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
+    color: var(--main-color);
 }
 
 .skills-tag-cloud {
@@ -536,19 +642,23 @@ body {
     flex-wrap: wrap;
     gap: 0.75rem;
 }
+
 .skill-tag {
     display: inline-flex;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding: 0.45rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 500;
+    border: 1px solid currentColor; /* ใช้สี text เป็น border */
+    background: transparent;        /* ให้ JS ใส่ background อ่อน ๆ อยู่แล้ว */
+    color: var(--main-color);       /* ถูก override โดย JS ของคุณ */
     transition: all 0.3s ease;
-    border: 1px solid;
+    cursor: pointer;
 }
+
 .skill-tag:hover {
     transform: translateY(-3px);
-    filter: brightness(1.2);
 }
 .skill-tag i {
     margin-right: 0.5rem;
