@@ -22,11 +22,25 @@
   },
   "experience": [
     {
+      "icon": "fas fa-shield-alt",
+      "logo": "img/armstrong_techs_logo.jpeg",
+      "title": "Cybersecurity & Threat Intelligence Intern",
+      "company": "Armstrong Co., Ltd.",
+      "duration": "2025 Oct - 2026 Feb",
+      "location": "Bangkok, Thailand",
+      "details": [
+        "Delivered Incident Response training sessions for government organizations, including the Electricity Authority and the Department of Mental Health, focusing on cyber incident handling processes and response best practices.",
+        "Managed and operated the MISP (Malware Information Sharing Platform) to collect, analyze, and correlate threat intelligence data.",
+        "Analyzed threat data from multiple sources to identify patterns and generate security insights to support cybersecurity monitoring and incident investigation."
+      ],
+      "tech_stack": ["MISP", "Threat Intelligence", "Cybersecurity", "Incident Response", "Data Analysis"]
+    },
+    {
       "icon": "fas fa-briefcase",
       "logo": "img/coj.jpg",
       "title": "Computer Technical Officer (AI Develop & Data Analysis)",
       "company": "Court of Justice Thailand",
-      "duration": "2025 March-May",
+      "duration": "2025 March - May",
       "location": "Bangkok, Thailand",
       "details": [
         "Developed a Large Language Model (LLM) system as part of the AI-Powered Trial Preparation and Consultation System Development Project.",
@@ -40,7 +54,7 @@
       "logo": "img/botnoi.png",
       "title": "Data Scientist (Internship)",
       "company": "Botnoi",
-      "duration": "2024 March-May",
+      "duration": "2024 March - May",
       "location": "Bangkok, Thailand",
       "details": [
         "Developed data analysis pipelines and automated workflows using Pandas AI to streamline data preprocessing and feature extraction.",
@@ -118,6 +132,18 @@
       "links": {
         "view": "https://ieeexplore.ieee.org/document/10987823",
         "pdf": "https://ieeexplore.ieee.org/document/10987823"
+      }
+    },
+    {
+      "title": "Lifespan Estimation of Closed-Circuit Television (CCTV) Systems Using Weibull Modeling",
+      "authors": "Vanvisa Chutchavong, Virote Pirajnanchai, Satawat Doungpan, Witchapon Kasettakarn, Thanapol Phungtua-eng, Kanok Janchitrapongvej",
+      "venue": "Applied Sciences (MDPI)",
+      "date": "February 2026",
+      "tags": ["Reliability Analysis", "Weibull Distribution", "Statistical Modeling", "Bootstrapping"],
+      "abstract": "Proposed a reliability analysis framework for estimating the operational lifespan of CCTV systems using the Weibull distribution. The study compared multiple parameter estimation methods (MLE, MOM, and LSM) and evaluated their accuracy using mean square error. Results showed that the maximum likelihood estimation method achieved the best performance and estimated the mean time to failure (MTTF) of CCTV systems to be approximately 6.6 years.",
+      "links": {
+        "view": "https://doi.org/10.3390/app16031637",
+        "pdf": "https://doi.org/10.3390/app16031637"
       }
     }
   ],
